@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200&display=swap');
+
+body {
+   font-family: 'Rubik', sans-serif;
+ direction: rtl;
+ margin: 0;
+ background-color: #ddd;
+}
+
+table, td, th {
+  border: 1px solid #000;
+  text-align: center;
+}
+
+table a {
+  text-decoration: none;
+  color: yellow;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #002244;
+  color: #fff;
+}
+
+th, td {
+  padding: 5px;
+}
+
+.firstTable {
+  table-layout: fixed;
+}
+
+.tableDiv {
+  margin: 20px 10px;
+  border-radius: 5px;
+  background-color: #002244;
+  color: #fff;
+  padding: 10px;
+}
+
+.stateFlag {
+  height: 18px;
+  width: 35px;
+  float: right;
+}
+
+.westBank {
+  font-size: 12px;
+}
+
+.likeToday {
+  text-align: center;
+  background-color: #002244;
+  color: #fff;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.lens {
+  background-color: #002244;
+  color: #fff;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.lens img {
+  height: 30px;
+  width: 30px;
+  margin-left: 10px;
+}
+
+.lensVideo {
+  background-color: #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  color: #000;
+  margin-left: 10px;
+}
+
+.lensVideo p {
+  margin: 10px;
+  font-size: 20px;
+}
+
+video {
+  width: 200px;
+  height: 150px;
+}
+
+.lensVideo span {
+  margin-right: 10px;
+  font-size: 12px;
+}
+
+.stateFlagTop {
+  width: 35px;
+  height: 25px;
+  margin-left: 10px;
+}
+
+.mainTableDiv {
+  text-align: center;
+}
+
+.mainTable {
+  margin-top: 20px;
+}
+
+h5:first-child {
+  margin-top: 5px;
+}
+
+h5 {
+  margin-top: 20px;
+}
+
+.mainTableDiv:first-child {
+  margin-top: 5px;
+}
+
+.lensScrollable {
+    display: flex; /* لعرض العناصر جنبًا إلى جنب */
+    overflow-x: scroll; /* إضافة شريط تمرير أفقي إذا تجاوزت العناصر الشاشة */
+    white-space: nowrap; /* لمنع العناصر من السقوط للسطر التالي */
+}
